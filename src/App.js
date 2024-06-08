@@ -16,7 +16,7 @@ function App() {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gradient-to-b from-blue-800 via-blue-700 to-blue-500 font-montserrat">
+    <div className="flex justify-center items-center h-screen bg-gradient-to-b from-violet-800 via-violet-700 to-blue-500 to-teal-400 font-Press Start 2P">
       <div className="text-center bg-gradient-to-b from-white to-gray-200 p-5 border-2 border-gray-600 rounded-lg shadow-md max-w-lg w-full">
         <h1 className="font-press-start text-6xl font-normal mb-5 text-gray-800 shadow-lg">
           SOCK SAGE <img src={`${process.env.PUBLIC_URL}/sage.png`} alt="Sage" className={`inline-block w-16 h-16 ml-3 ${animate ? 'animate-bounce' : ''}`} />
@@ -29,7 +29,7 @@ function App() {
         </button>
         {selectedColor && (
           <div className="mt-5 text-2xl text-gray-700 animate-pulse">
-            You should wear: <strong>{selectedColor}</strong> socks today, homie!
+            You should wear: <strong>{selectedColor}</strong> socks today, wise one!
           </div>
         )}
       </div>
@@ -39,7 +39,7 @@ function App() {
 
 export default App;
 
-// BOUNCE // 
+// BOUNCE //
 // import React, { useState } from 'react';
 // import RandomQuestion from './components/RandomQuestion';
 
