@@ -1,4 +1,4 @@
-# SockSage | # [demo](https://sock-sage.vercel.app/)
+# SockSage | [demo](https://sock-sage.vercel.app/)
 
 SockSage is a React application that helps you decide what color socks to wear. It's a fun and lighthearted way to add some spontaneity to your daily routine
 
