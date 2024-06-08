@@ -13,3 +13,22 @@ body {
 
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* KEYFRAMES */
+@keyframes rain {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+.sock {
+  width: 60px;
+  height: auto;
+}
+
+.animate-rain {
+  animation: rain 8s linear infinite;
+}
