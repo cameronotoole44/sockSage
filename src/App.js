@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import RandomQuestion from './components/RandomQuestion';
 import RainingSocks from './components/RainingSocks';
-import { SpeedInsights } from "@vercel/speed-insights/react"
+
 
 function App() {
   const [sockColors, setSockColors] = useState(['Black', 'White', 'Multi-color/Pattern']);
