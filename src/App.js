@@ -4,7 +4,7 @@ import RainingSocks from './components/RainingSocks';
 
 
 function App() {
-  const [sockColors, setSockColors] = useState(['Black', 'White', 'Multi-color/Pattern']);
+  const [sockColors] = useState(['Black', 'White', 'Multi-color/Pattern']);
   const [selectedColor, setSelectedColor] = useState('');
   const [animate, setAnimate] = useState(false);
 
